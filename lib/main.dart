@@ -64,7 +64,7 @@ class _ArtLabServiceState extends State<ArtLabService> {
   }
 
   void _endListenAPI() {
-    debugPrint('stopped');
+    debugPrint('stopped test');
     setState(() {
       status = 'Сонсож дууссан';
     });
